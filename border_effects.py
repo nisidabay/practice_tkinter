@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # type: ignore
 # Description: Show different border styles for widgets
 # Idea from: Internet
@@ -59,7 +59,6 @@ class BorderFrames(tk.Tk):
     def quit(self):
         ttk.Button(self.bottom_frame, text="Quit", command=self.destroy).pack(
             side=tk.BOTTOM,
-            pady=5,
         )
 
 
