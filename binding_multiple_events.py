@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # Idea from:https://www.tutorialspoint.com/how-to-bind-multiple-events-with-one-bind-in-tkinter
 # Binding multiple events
 # Description: Binding multiple events
